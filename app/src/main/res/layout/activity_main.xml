@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jasonjinsooyoo.freefindr.users.MainActivity">
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/signInButton">
+
+
+    </com.google.android.gms.common.SignInButton>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="Welcome to FreeFinder!"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:text="Sign Out"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/account_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="@string/emptyString"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+</RelativeLayout>

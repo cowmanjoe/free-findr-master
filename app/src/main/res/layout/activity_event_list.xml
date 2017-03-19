@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jasonjinsooyoo.freefindr.users.EventListActivity">
+
+    <TextView
+        android:id="@+id/eList_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These are your preferences:"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/pref_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"/>
+</RelativeLayout>

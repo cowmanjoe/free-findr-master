@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "188380575428",
+    "project_id": "free-findr-162016"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188380575428:android:2009505432be39c9",
+        "android_client_info": {
+          "package_name": "com.example.jasonjinsooyoo.freefindr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188380575428-hcjb0alpjej57hq8md8l8ueevfaqrkul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jasonjinsooyoo.freefindr",
+            "certificate_hash": "1a35ecbe087b30572ba5a660cab44c7c32fb32a1"
+          }
+        },
+        {
+          "client_id": "188380575428-fuqvb6fh58s7n8hr1bm9cco3o4ugj396.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa9WFaS0k-L9Fdgow62QCdYh0I0uY_gjM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
